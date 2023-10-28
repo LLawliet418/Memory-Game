@@ -1,0 +1,108 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1d223b;
+    color: #e8e8e8;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+#gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(5, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  .flipped, .matched {
+    background-size: cover;
+  }
+  
+  #scoreboard {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  #result-list {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .result-item {
+    margin-bottom: 10px;
+  }
+
+  #moves {
+    color: rgb(122, 219, 219);
+  }
+
+#congrats-text {
+    display:none; 
+    font-size: 1.7em; 
+    text-align: center; 
+    margin-bottom: 20px;
+    color: rgb(122, 219, 219);
+}
+
+#restart-btn {
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(122, 219, 219);
+  }
+
+  #restart-btn:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    #congratulations {
+      font-size: 1.5em;
+    }
+  }
+  
+
+@media only screen and (max-width: 600px) {
+    .card {
+      width: calc(33.333% - 10px);  
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .card {
+      width: calc(50% - 10px);
+    }
+  }
+  

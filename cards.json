@@ -1,0 +1,84 @@
+{
+  "cards": [
+    {
+      "name": "desert",
+      "img": "images/desert.png"
+    },
+    {
+      "name": "desert",
+      "img": "images/desert.png"
+    },
+    {
+      "name": "desert2",
+      "img": "images/desert2.png"
+    },
+    {
+      "name": "desert2",
+      "img": "images/desert2.png"
+    },
+    {
+      "name": "grassland",
+      "img": "images/grassland.png"
+    },
+    {
+      "name": "grassland",
+      "img": "images/grassland.png"
+    },
+    {
+      "name": "jungle",
+      "img": "images/jungle.png"
+    },
+    {
+      "name": "jungle",
+      "img": "images/jungle.png"
+    },
+    {
+      "name": "jungle2",
+      "img": "images/jungle2.png"
+    },
+    {
+      "name": "jungle2",
+      "img": "images/jungle2.png"
+    },
+    {
+      "name": "mangrove",
+      "img": "images/mangrove.png"
+    },
+    {
+      "name": "mangrove",
+      "img": "images/mangrove.png"
+    },
+    {
+      "name": "mountain",
+      "img": "images/mountain.png"
+    },
+    {
+      "name": "mountain",
+      "img": "images/mountain.png"
+    },
+    {
+      "name": "ocean",
+      "img": "images/ocean.png"
+    },
+    {
+      "name": "ocean",
+      "img": "images/ocean.png"
+    },
+    {
+      "name": "snow",
+      "img": "images/snow.png"
+    },
+    {
+      "name": "snow",
+      "img": "images/snow.png"
+    },
+    {
+      "name": "sky",
+      "img": "images/sky.png"
+    },
+    {
+      "name": "sky",
+      "img": "images/sky.png"
+    }
+  ]
+}
